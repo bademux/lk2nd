@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton.dtsi>
+
+/ {
+
+	qcom,msm-id = <241 0>;
+	qcom,board-id = <0x0EF08FF1 6>;
+	
+	a7lte {
+		model = "Samsung Galaxy A7 Duos 2015 (SM-A700FD)";
+		compatible = "samsung,a7lte", "qcom,msm8939", "lk2nd,device";
+		lk2nd,match-bootloader = "A700FD*";
+		
+		qcom,msm-id = <241 0>;
+		qcom,board-id = <0x0EF08FF1 6>;
+	};
+};
